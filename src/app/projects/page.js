@@ -1,3 +1,6 @@
+"use client";
+import { ProjectCard } from "@/components";
+
 export default function ProjectsPage() {
-    return <>Project Page</>;
+    return <ProjectCard />;
 }
